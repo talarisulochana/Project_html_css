@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color:whitesmoke;
+    color: black;
+    padding: 10px 0;
+}
+header .container {
+    display: flex;
+ justify-content: space-between; 
+    align-items: center;
+
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color:black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline
+}
+.Img{
+    position: relative;
+left: 300px;
+}
+.Level{
+    position: relative;
+    right: 30px;
+}
+.line{
+    border: 1px solid wheat;
+    height: 40px;
+}
+
+.Banner{
+
+    background-image: url('./Icons/bg-img-1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+.Box{
+    background-color: white;
+    width: 60%;
+    height: 200px;
+    position: relative;
+    padding: 5px;
+    left: 300px;
+    top: 200px;
+}
+.Box_part{
+    display:flex; 
+    padding: 10px;
+    gap: 10px;   
+}
+.icon {
+    padding: 15px;
+    color: orangered;
+    width: 40px;
+    text-align: center;
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+
+
+.input-field {
+    padding: 10px;
+    text-align: center;
+}
+.left{
+    padding: 10px;
+}
+.right{
+    color: orangered;
+     float: right;
+     position: relative;
+     bottom: 50px;
+
+}
+
+.Text{
+    justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: orangered;
+        color: white;
+        padding-bottom: 10px;
+    }
+
+.Parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+ }
+ .B{
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+
+}
+.B>div{
+    Width:33.33%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+gap: 20px;
+padding: 20px;
+}
+
+
+.Card_part-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:whitesmoke;
+}
+.card{
+    width: 17rem;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 10px;
+}
+.C{
+    background-color: orangered;
+    color: white;
+}
+.image_2{
+    display: flex;
+    gap: 5px;
+    margin: 2px;
+}
+.loading{
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+}
+.loading span{
+    width: 5px;
+    height: 5px ;
+    margin: 0 5px ;
+    background-color:gray;
+    border: 50%;
+    border-radius: 70%;
+    display: inline-block;
+position: relative;
+    left: 700px;
+}
+
+.Body{
+    background-image: url('./Icons/bg-img-2.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+}
+
+.Body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+}
+.parent{
+    display: flex;
+    border: 1px solid whitesmoke;
+    width: 50rem;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 20px;
+    gap: 20px;
+} 
+.P1{
+    position: relative;
+    left: 150px;
+
+}
+  
+.Address{
+    background-image: url('./Icons/bg-img-3.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: 100%;
+}
+.Address>div{
+    display: flex;
+    justify-content:center; 
+    align-items: center;
+    padding: 70px;
+    gap: 20px;
+}
+.Form{
+    border: 2px solid white; 
+    background:whitesmoke;
+     gap: 10px;
+     padding: 5px;
+}
+footer {
+    background-color:lightseagreen;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
